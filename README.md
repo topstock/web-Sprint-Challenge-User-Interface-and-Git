@@ -54,7 +54,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Explain why git is valuable to a team of developers.
 
-    Used properly, git stores all versions pushed to a project remotely , which is a handy backup and way to preserve features that might stop working with newer versions.  It allows multiple coders to branch the same project on separate machines to divide tasks and then review and compare each others' changes online through pull-requests.  Git also helps prevent code being overwritten or badly merged.
+    Used properly, git stores all versions pushed to a project remotely , which is a handy backup and way to preserve features that might stop working with newer versions.  It allows multiple coders to branch the same project on separate machines to divide tasks and then review and compare each others' changes on a remote server through pull-requests.  Git also helps prevent code being overwritten or badly merged.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

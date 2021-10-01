@@ -73,6 +73,7 @@ header {
     justify-content: space-around;
     height: 250px;
 }
+
 header div.container {
     display: flex;
 }
@@ -88,7 +89,7 @@ header .links {
     justify-content: space-around;
 }
 
-header a, header a:hover {
+header a, header a:hover, button {
     font-size: 14px;
     font-weight: 700;
     text-decoration: none;
@@ -186,6 +187,7 @@ header img.container {
 .middle-content .boxes .box:nth-child(10) {
     background: dodgerblue;
 }
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -217,4 +219,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html style exclusives */
+
+div.about-page {
+    width: 800px;
+}
+
+div.card-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content:space-around;
+}
+
+.card, .about-description {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-description p {
+    margin-bottom: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 450px;
+    width: 375px;
+}
+
+.card img {
+    height: 250px;
+    width: 375px;
+}
+
+.card h2 {
+    margin-bottom: 0;
+}
+
+.card-board .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card button {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 125px;
+    margin: 10px 0px 15px 0px;
+    background-color: white;
+}
+
+#summary-container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#summary{
+    width: 760px;
 }

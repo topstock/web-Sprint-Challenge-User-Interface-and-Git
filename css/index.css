@@ -66,6 +66,41 @@ p {
     line-height: 1.4;
 }
 
+/* header content*/
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 250px;
+}
+
+header div.container {
+    display: flex;
+}
+
+header div.container img {
+    width: 176px;
+}
+
+header .links {
+    width: 624px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+header a, header a:hover, button {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+header img.container {
+    max-height: 125px;
+}
+
+/* body content */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -111,6 +146,47 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* coloring 10 boxes using css only*/
+
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+}
+
+.middle-content .boxes .box:nth-child(2) {
+    background:gold;
+}
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+}
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+}
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+}
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+}
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+}
 
 .bottom-content {
     display: flex;
@@ -143,4 +219,80 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html style exclusives */
+
+div.about-page {
+    width: 800px;
+}
+
+div.card-board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    justify-content:space-around;
+    align-items: flex-start;
+}
+
+.card, .about-container {
+    border-bottom: 1px dashed black;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    width: 760px;
+}
+
+.about-description p {
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 450px;
+    width: 375px;
+    margin-bottom: 50px;
+}
+
+.card img {
+    height: 250px;
+    width: 375px;
+}
+
+.card h2 {
+    margin-bottom: 0;
+}
+
+.card-board .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card button {
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 125px;
+    margin: 10px 0px 15px 0px;
+    background-color: white;
+}
+
+#summary-container {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#summary{
+    width: 760px;
 }

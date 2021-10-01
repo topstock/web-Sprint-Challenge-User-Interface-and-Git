@@ -66,6 +66,40 @@ p {
     line-height: 1.4;
 }
 
+/* header content*/
+header {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    height: 250px;
+}
+header div.container {
+    display: flex;
+}
+
+header div.container img {
+    width: 176px;
+}
+
+header .links {
+    width: 624px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+header a, header a:hover {
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+}
+
+header img.container {
+    max-height: 125px;
+}
+
+/* body content */
 .container {
     width: 800px;
     margin: 0 auto;

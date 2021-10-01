@@ -38,8 +38,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    1) 'display: block;' may take 'height:' and 'width:' properties, while 'dislpay: inline;' does not. 
-    2) 'dislpay: inline;' only takes up as much width as needed, but 'display: block;' takes the entire width of the page.
+    1) 'display: block;' may take 'height:' and 'width:' properties, while 'display: inline;' does not. 
+    2) 'display: inline;' only takes up as much width as needed, but 'display: block;' takes the entire width, starting a new row.
 
 3. What are the 4 areas of the box model?
 

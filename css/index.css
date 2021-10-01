@@ -232,22 +232,34 @@ div.card-board {
     flex-wrap: wrap;
     width: 800px;
     justify-content:space-around;
+    align-items: flex-start;
 }
 
-.card, .about-description {
-    margin-bottom: 20px;
+.card, .about-container {
     border-bottom: 1px dashed black;
+}
+
+.about-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.about-description {
+    width: 760px;
 }
 
 .about-description p {
     margin-bottom: 20px;
 }
+
 .card {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     height: 450px;
     width: 375px;
+    margin-bottom: 50px;
 }
 
 .card img {
@@ -275,10 +287,10 @@ div.card-board {
 }
 
 #summary-container {
-    height: 150px;
+    height: 130px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 #summary{
